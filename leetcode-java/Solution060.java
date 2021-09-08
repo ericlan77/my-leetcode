@@ -1,4 +1,3 @@
-package leetcode;
 import java.util.*;
 /**
  * @ClassName: Solution060

@@ -1,5 +1,5 @@
 import utils.*;
-import java.util.*;
+
 /**
  * @ClassName:  24. Swap Nodes in Pairs
  * @Description: TODO

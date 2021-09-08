@@ -1,5 +1,3 @@
-package leetcode;
-
 /**
  * @ClassName: Solution034
  * @Description: TODO

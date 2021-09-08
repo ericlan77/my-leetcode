@@ -1,5 +1,3 @@
-package leetcode;
-
 import org.omg.PortableInterceptor.SYSTEM_EXCEPTION;
 
 /**
