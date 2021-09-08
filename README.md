@@ -1,6 +1,8 @@
 目录仅包括1-100 Easy和medium题<br>
 101-200 Easy和medium题见[link](https://github.com/ericlan77/CS-LearningNote/blob/master/InterviewNote/LeetCode/Solutions/101-200_Easy_Medum_Solutions.md)（懒得做目录了）
 
+https://github.com/ericlan77/my-leetcode/blob/main/leetcode-java/Solution007.java
+
 # Easy
 
 | 题号                               | 实现语言                                                     | 备注 |
@@ -8,7 +10,7 @@
 | 1.TwoSum                           | [Python](https://github.com/ericlan77/CS-LearningNote/blob/master/InterviewNote/LeetCode/Solutions/1-100_Easy_Soluitons.md#1-two-sum-easy), [Java](https://github.com/ericlan77/my-leetcode/blob/main/leetcode-java/Solution001.java) |      |
 | 7.ReverseInteger                   | [Python](https://github.com/ericlan77/CS-LearningNote/blob/master/InterviewNote/LeetCode/Solutions/1-100_Easy_Soluitons.md#7-reverse-integer-easy), [Java](https://github.com/ericlan77/my-leetcode/blob/main/leetcode-java/Solution007.java) |      |
 | 9.PalindromeNumber                 | [Python](https://github.com/ericlan77/CS-LearningNote/blob/master/InterviewNote/LeetCode/Solutions/1-100_Easy_Soluitons.md#9-palindrome-number-easy), [Java](https://github.com/ericlan77/my-leetcode/blob/main/leetcode-java/Solution009.java) |      |
-| 13.RomantoInteger                  | [Python](https://github.com/ericlan77/CS-LearningNote/blob/master/InterviewNote/LeetCode/Solutions/1-100_Easy_Soluitons.md#13-roman-to-integer-easy), [Java]() |      |
+| 13.RomantoInteger                  | [Python](https://github.com/ericlan77/CS-LearningNote/blob/master/InterviewNote/LeetCode/Solutions/1-100_Easy_Soluitons.md#13-roman-to-integer-easy), [Java](https://github.com/ericlan77/my-leetcode/blob/main/leetcode-java/Solution013.java) |      |
 | 14.LongestCommonPrefix             | [Python](https://github.com/ericlan77/CS-LearningNote/blob/master/InterviewNote/LeetCode/Solutions/1-100_Easy_Soluitons.md#14-longest-common-prefix-easy), [Java]() |      |
 | 20.ValidParentheses                | [Python](https://github.com/ericlan77/CS-LearningNote/blob/master/InterviewNote/LeetCode/Solutions/1-100_Easy_Soluitons.md#20-valid-parentheses-easy), [Java]() |      |
 | 21.MergeTwoSortedLists             | [Python](https://github.com/ericlan77/CS-LearningNote/blob/master/InterviewNote/LeetCode/Solutions/1-100_Easy_Soluitons.md#21-merge-two-sorted-lists-easy), [Java]() |      |
@@ -93,11 +95,5 @@
 
 # Hard
 
-| 题号 | 备注 |
-| ---- | ---- |
-
-|      |      |
-| ---- | ---- |
-
-|      |      |
-| ---- | ---- |
+| 题号 | 备注 |      |
+| ---- | ---- | ---- |
