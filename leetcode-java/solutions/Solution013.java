@@ -1,3 +1,4 @@
+package solutions;
 import java.util.HashMap;
 /**
  * 初始化HashMap，对于罗马字母，当前字母对应数值大于右边的，那么在总数里加上当前

@@ -1,3 +1,4 @@
+package solutions;
 import utils.*;
 public class Solution021 {
     public static ListNode mergeTwoLists(ListNode l1, ListNode l2) {

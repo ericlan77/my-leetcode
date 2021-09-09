@@ -1,3 +1,4 @@
+package solutions;
 import utils.*;
 
 import java.util.*;
@@ -45,18 +46,6 @@ public class Solution113 {
         return;
     }
 
-    public static void main(String args[]){
-        BuildTree newTree = new BuildTree();
-        TreeNode root = newTree.buildTree();
-        newTree.printTree();
-        Solution113 test = new Solution113();
-        List<List<Integer>> res = test.pathSum(root, 11);
-        for(List<Integer> list: res){
-            for(Integer i: list){
-                System.out.print(i);
-                System.out.println(" ");
-            }
-            System.out.println(" ");
-        }
+    public static void main(String args[]) {
     }
 }

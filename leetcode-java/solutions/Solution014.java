@@ -1,3 +1,4 @@
+package solutions;
 /**
  * （纵向比较法）
  * carbon

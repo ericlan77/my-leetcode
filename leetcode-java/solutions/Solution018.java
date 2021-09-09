@@ -1,3 +1,4 @@
+package solutions;
 import java.util.*;
 /**
  * @ClassName: 18. 4Sum

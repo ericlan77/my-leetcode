@@ -1,14 +1,10 @@
 package utils;
-import java.util.*;
-/**
- * @ClassName: TreeNode
- * @Description: TODO
- * @Author: Eric Lan
- * @Date: 2020/5/5 10:16
- * @Version: TODO
- **/
-public class BuildTree {
-    public TreeNode buildTree(){
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class TreeUtil {
+    public static TreeNode buildTree(){
         TreeNode root = new TreeNode(5);
         TreeNode left = new TreeNode(4);
         TreeNode right = new TreeNode(6);
@@ -24,8 +20,8 @@ public class BuildTree {
         return root;
     }
 
-    public List<List<Integer>> levelOrder(TreeNode root) {
-        List<List<Integer>> res = new ArrayList<List<Integer>> ();
+    public static List<List<Integer>> levelOrder(TreeNode root) {
+        List<List<Integer>> res = new ArrayList<List<Integer>>();
         if(root == null) return res;
         List<Integer> nodeValueList = new ArrayList<Integer>();
         // save the nodes of current level
@@ -53,7 +49,7 @@ public class BuildTree {
         return res;
     }
 
-    public void printTree(){
+    public static void printTree(){
         TreeNode root = buildTree();
         List<List<Integer>> nodeLevel = levelOrder(root);
         for(List<Integer> level: nodeLevel){

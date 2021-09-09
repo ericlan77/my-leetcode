@@ -1,5 +1,5 @@
+package solutions;
 import java.util.*;
-
 /**
  * @ClassName: Solution003
  * @Description: TODO
