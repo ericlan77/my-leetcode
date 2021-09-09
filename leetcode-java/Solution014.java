@@ -1,3 +1,12 @@
+/**
+ * （纵向比较法）
+ * carbon
+ * carry
+ * car
+ * 按顺序依次取出第一个单词的字符，同其他字母同一个位置的字符比较，
+ * 当其他字母提前结束或者不匹配时，返回已经匹配到的相同字符串。
+ * 注意边界条件：当匹配的字符串为空时。
+ */
 public class Solution014 {
     public static String longestCommonPrefix(String[] strs) {
         if(strs.length == 0 || strs[0].equals("")) return "";

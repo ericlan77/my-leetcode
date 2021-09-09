@@ -11,9 +11,9 @@ https://github.com/ericlan77/my-leetcode/blob/main/leetcode-java/Solution007.jav
 | 7.ReverseInteger                   | [Python](https://github.com/ericlan77/CS-LearningNote/blob/master/InterviewNote/LeetCode/Solutions/1-100_Easy_Soluitons.md#7-reverse-integer-easy), [Java](https://github.com/ericlan77/my-leetcode/blob/main/leetcode-java/Solution007.java) |      |
 | 9.PalindromeNumber                 | [Python](https://github.com/ericlan77/CS-LearningNote/blob/master/InterviewNote/LeetCode/Solutions/1-100_Easy_Soluitons.md#9-palindrome-number-easy), [Java](https://github.com/ericlan77/my-leetcode/blob/main/leetcode-java/Solution009.java) |      |
 | 13.RomantoInteger                  | [Python](https://github.com/ericlan77/CS-LearningNote/blob/master/InterviewNote/LeetCode/Solutions/1-100_Easy_Soluitons.md#13-roman-to-integer-easy), [Java](https://github.com/ericlan77/my-leetcode/blob/main/leetcode-java/Solution013.java) |      |
-| 14.LongestCommonPrefix             | [Python](https://github.com/ericlan77/CS-LearningNote/blob/master/InterviewNote/LeetCode/Solutions/1-100_Easy_Soluitons.md#14-longest-common-prefix-easy), [Java]() |      |
-| 20.ValidParentheses                | [Python](https://github.com/ericlan77/CS-LearningNote/blob/master/InterviewNote/LeetCode/Solutions/1-100_Easy_Soluitons.md#20-valid-parentheses-easy), [Java]() |      |
-| 21.MergeTwoSortedLists             | [Python](https://github.com/ericlan77/CS-LearningNote/blob/master/InterviewNote/LeetCode/Solutions/1-100_Easy_Soluitons.md#21-merge-two-sorted-lists-easy), [Java]() |      |
+| 14.LongestCommonPrefix             | [Python](https://github.com/ericlan77/CS-LearningNote/blob/master/InterviewNote/LeetCode/Solutions/1-100_Easy_Soluitons.md#14-longest-common-prefix-easy), [Java](https://github.com/ericlan77/my-leetcode/blob/main/leetcode-java/Solution014.java) |      |
+| 20.ValidParentheses                | [Python](https://github.com/ericlan77/CS-LearningNote/blob/master/InterviewNote/LeetCode/Solutions/1-100_Easy_Soluitons.md#20-valid-parentheses-easy), [Java](https://github.com/ericlan77/my-leetcode/blob/main/leetcode-java/Solution020.java) |      |
+| 21.MergeTwoSortedLists             | [Python](https://github.com/ericlan77/CS-LearningNote/blob/master/InterviewNote/LeetCode/Solutions/1-100_Easy_Soluitons.md#21-merge-two-sorted-lists-easy), [Java](https://github.com/ericlan77/my-leetcode/blob/main/leetcode-java/Solution021.java) |      |
 | 26.RemoveDuplicatesfromSortedArray | [Python](https://github.com/ericlan77/CS-LearningNote/blob/master/InterviewNote/LeetCode/Solutions/1-100_Easy_Soluitons.md#26-remove-duplicates-from-sorted-array-easy), [Java](https://github.com/ericlan77/my-leetcode/blob/main/leetcode-java/Solution026.java) |      |
 | 27.RemoveElement                   | [Python](https://github.com/ericlan77/CS-LearningNote/blob/master/InterviewNote/LeetCode/Solutions/1-100_Easy_Soluitons.md#27-remove-element-easy), [Java](https://github.com/ericlan77/my-leetcode/blob/main/leetcode-java/Solution027.java) |      |
 | 28.ImplementstrStr()               | [Python](https://github.com/ericlan77/CS-LearningNote/blob/master/InterviewNote/LeetCode/Solutions/1-100_Easy_Soluitons.md#28-implement-strstr-easy), [Java]() |      |
@@ -96,4 +96,7 @@ https://github.com/ericlan77/my-leetcode/blob/main/leetcode-java/Solution007.jav
 # Hard
 
 | 题号 | 备注 |      |
+| ---- | ---- | ---- |
+
+|      |      |      |
 | ---- | ---- | ---- |
