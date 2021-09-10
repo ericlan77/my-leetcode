@@ -1,63 +1,150 @@
 package utils;
-
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Stack;
+
+/**
+ * @author ericlan
+ * @date 9/11/2021 12:52 AM
+ * @description some tree operation: build, traverse...
+ */
 
 public class TreeUtil {
-    public static TreeNode buildTree(){
-        TreeNode root = new TreeNode(5);
-        TreeNode left = new TreeNode(4);
-        TreeNode right = new TreeNode(6);
+    public static TreeNode buildTree(String input){
+        String[] list = input.split(",");
+        if(list.length == 1){
+            TreeNode root = new TreeNode(Integer.parseInt(list[0].substring(1,2)));
+        }
+        ArrayList<Integer> treeArray = new ArrayList<>();
+        for(int i = 0; i < list.length; i++){
+            if(i == 0)
+                treeArray.add(Integer.parseInt(list[i].substring(1)));
+            else if(i == list.length-1)
+                treeArray.add(Integer.parseInt(list[i].substring(0,1)));
+            else if(list[i].equals("null"))
+                treeArray.add(null);
+            else
+                treeArray.add(Integer.parseInt(list[i]));
+        }
+        TreeNode root = new TreeNode(treeArray.get(0));
+        root.parent = root;
+        Stack<TreeNode> currLevel = new Stack<>();
+        Stack<TreeNode> nextLevel = new Stack<>();
+        currLevel.push(root);
+        int index = 1;
+        while (!currLevel.isEmpty()) {
+            TreeNode currNode = currLevel.remove(0);
+            // if still num in array, add to the left leaf node, the leaf node add to next level, index++
+            if (index < treeArray.size()) {
+                if(treeArray.get(index) != null){
+                    currNode.left = new TreeNode(treeArray.get(index), currNode);
+                    nextLevel.add(currNode.left);
+                }
+                else
+                    currNode.left = null;
+                index++;
+            } else
+                break;
+            // if still num in array, add to the right leaf node, the leaf node add to next level,index++
+            if (index < treeArray.size()) {
+                if(treeArray.get(index) != null){
+                    currNode.right = new TreeNode(treeArray.get(index), currNode);
+                    nextLevel.add(currNode.right);
+                }
+                else
+                    currNode.right = null;
+                index++;
+            } else
+                break;
+            if (currLevel.isEmpty()){
+                currLevel = nextLevel;
+                nextLevel = new Stack<>();
+            }
 
-        root.left = left;
-        root.right = right;
-
-        left = new TreeNode(2);
-        right = new TreeNode(9);
-        root.left.left = left;
-        root.left.right = right;
-
+        }
         return root;
     }
 
-    public static List<List<Integer>> levelOrder(TreeNode root) {
-        List<List<Integer>> res = new ArrayList<List<Integer>>();
-        if(root == null) return res;
-        List<Integer> nodeValueList = new ArrayList<Integer>();
-        // save the nodes of current level
-        List<TreeNode> nodeList = new ArrayList<TreeNode>();
-        // save all the subnodes of next level
-        List<TreeNode> subNodeList = new ArrayList<TreeNode>();
-
-        nodeList.add(root);
-        // if subNodeList is still empty, end the loop;
-        while(!nodeList.isEmpty()){
-            TreeNode curNode = nodeList.get(0);
-            nodeValueList.add(curNode.val);
-
-            if(curNode.left != null) subNodeList.add(curNode.left);
-            if(curNode.right != null) subNodeList.add(curNode.right);
-            nodeList.remove(0);
-            // current level is done;
-            if(nodeList.isEmpty()){
-                res.add(nodeValueList);
-                nodeValueList = new ArrayList<Integer>();
-                nodeList = subNodeList;
-                subNodeList = new ArrayList<TreeNode>();
+    public static List<List<String>> levelTraverseWithParent(TreeNode root){
+        List<List<String>> allNodeValues = new ArrayList<>();
+        ArrayList<String> currLevelNodeValues = new ArrayList<>();
+        ArrayList<TreeNode> currLevel = new ArrayList<>();
+        ArrayList<TreeNode> nextLevel = new ArrayList<>();
+        currLevel.add(root);
+        int level = 1;
+        while(!currLevel.isEmpty()){
+            TreeNode currNode = currLevel.remove(0);
+            if(currNode.left != null)
+                nextLevel.add(currNode.left);
+            if(currNode.right != null)
+                nextLevel.add(currNode.right);
+            currLevelNodeValues.add(currNode.val+"("+currNode.parent.val+") ");
+            if(currLevel.isEmpty()){
+                level++;
+                allNodeValues.add(currLevelNodeValues);
+                currLevelNodeValues = new ArrayList<>();
+                currLevel = nextLevel;
+                nextLevel = new ArrayList<>();
             }
         }
-        return res;
+        return allNodeValues;
     }
 
-    public static void printTree(){
-        TreeNode root = buildTree();
-        List<List<Integer>> nodeLevel = levelOrder(root);
-        for(List<Integer> level: nodeLevel){
-            for(Integer val: level){
-                System.out.print(val);
-                System.out.print(" ");
+    public static List<List<Integer>> levelTraverse(TreeNode root) {
+        List<List<Integer>> allNodeValues = new ArrayList<>();
+        ArrayList<Integer> currLevelNodeValues = new ArrayList<>();
+        ArrayList<TreeNode> currLevel = new ArrayList<>();
+        ArrayList<TreeNode> nextLevel = new ArrayList<>();
+        currLevel.add(root);
+        int level = 1;
+        while(!currLevel.isEmpty()){
+            TreeNode currNode = currLevel.remove(0);
+            if(currNode.left != null)
+                nextLevel.add(currNode.left);
+            if(currNode.right != null)
+                nextLevel.add(currNode.right);
+            currLevelNodeValues.add(currNode.val);
+            if(currLevel.isEmpty()){
+                level++;
+                allNodeValues.add(currLevelNodeValues);
+                currLevelNodeValues = new ArrayList<>();
+                currLevel = nextLevel;
+                nextLevel = new ArrayList<>();
             }
-            System.out.println("");
         }
+        return allNodeValues;
+    }
+
+    public static void printTreeLevelWithParent(TreeNode root){
+        List<List<String>> tree = levelTraverseWithParent(root);
+        int index = 1;
+        for(List<String> nodesOnlevel: tree){
+            for(String node: nodesOnlevel){
+                System.out.print(node+" ");
+            }
+            System.out.println("->"+index++);
+        }
+    }
+
+    public static void printTreeLevel(TreeNode root){
+        List<List<Integer>> tree = levelTraverse(root);
+        int index = 1;
+        for(List<Integer> nodesOnlevel: tree){
+            for(Integer node: nodesOnlevel){
+                System.out.print(node+" ");
+            }
+            System.out.println("->"+index++);
+        }
+    }
+
+    public static void main(String[] args) {
+        String input = "[5,4,8,11,null,13,4,7,2,null,null,5,1]";
+        TreeNode root = buildTree(input);
+        System.out.println("print tree by level");
+        printTreeLevel(root);
+        System.out.println("print tree by level with parent");
+        printTreeLevelWithParent(root);
+
+
     }
 }
