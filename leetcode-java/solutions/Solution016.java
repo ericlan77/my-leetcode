@@ -1,6 +1,5 @@
-import java.lang.reflect.Array;
+package solutions;
 import java.util.Arrays;
-
 /**
  * @ClassName: 16. 3Sum Closest
  * @Description: TODO

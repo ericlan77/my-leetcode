@@ -1,32 +1,32 @@
 目录仅包括1-100 Easy和medium题<br>
 101-200 Easy和medium题见[link](https://github.com/ericlan77/CS-LearningNote/blob/master/InterviewNote/LeetCode/Solutions/101-200_Easy_Medum_Solutions.md)（懒得做目录了）
 
-https://github.com/ericlan77/my-leetcode/blob/main/leetcode-java/Solution007.java
+https://github.com/ericlan77/my-leetcode/blob/main/leetcode-java/solutions/Solution007.java
 
 # Easy
 
-| 题号                               | 实现语言                                                     | 备注 |
-| ---------------------------------- | ------------------------------------------------------------ | ---- |
-| 1.TwoSum                           | [Python](https://github.com/ericlan77/CS-LearningNote/blob/master/InterviewNote/LeetCode/Solutions/1-100_Easy_Soluitons.md#1-two-sum-easy), [Java](https://github.com/ericlan77/my-leetcode/blob/main/leetcode-java/Solution001.java) |      |
-| 7.ReverseInteger                   | [Python](https://github.com/ericlan77/CS-LearningNote/blob/master/InterviewNote/LeetCode/Solutions/1-100_Easy_Soluitons.md#7-reverse-integer-easy), [Java](https://github.com/ericlan77/my-leetcode/blob/main/leetcode-java/Solution007.java) |      |
-| 9.PalindromeNumber                 | [Python](https://github.com/ericlan77/CS-LearningNote/blob/master/InterviewNote/LeetCode/Solutions/1-100_Easy_Soluitons.md#9-palindrome-number-easy), [Java](https://github.com/ericlan77/my-leetcode/blob/main/leetcode-java/Solution009.java) |      |
-| 13.RomantoInteger                  | [Python](https://github.com/ericlan77/CS-LearningNote/blob/master/InterviewNote/LeetCode/Solutions/1-100_Easy_Soluitons.md#13-roman-to-integer-easy), [Java](https://github.com/ericlan77/my-leetcode/blob/main/leetcode-java/Solution013.java) |      |
-| 14.LongestCommonPrefix             | [Python](https://github.com/ericlan77/CS-LearningNote/blob/master/InterviewNote/LeetCode/Solutions/1-100_Easy_Soluitons.md#14-longest-common-prefix-easy), [Java]() |      |
-| 20.ValidParentheses                | [Python](https://github.com/ericlan77/CS-LearningNote/blob/master/InterviewNote/LeetCode/Solutions/1-100_Easy_Soluitons.md#20-valid-parentheses-easy), [Java]() |      |
-| 21.MergeTwoSortedLists             | [Python](https://github.com/ericlan77/CS-LearningNote/blob/master/InterviewNote/LeetCode/Solutions/1-100_Easy_Soluitons.md#21-merge-two-sorted-lists-easy), [Java]() |      |
-| 26.RemoveDuplicatesfromSortedArray | [Python](https://github.com/ericlan77/CS-LearningNote/blob/master/InterviewNote/LeetCode/Solutions/1-100_Easy_Soluitons.md#26-remove-duplicates-from-sorted-array-easy), [Java](https://github.com/ericlan77/my-leetcode/blob/main/leetcode-java/Solution026.java) |      |
-| 27.RemoveElement                   | [Python](https://github.com/ericlan77/CS-LearningNote/blob/master/InterviewNote/LeetCode/Solutions/1-100_Easy_Soluitons.md#27-remove-element-easy), [Java](https://github.com/ericlan77/my-leetcode/blob/main/leetcode-java/Solution027.java) |      |
-| 28.ImplementstrStr()               | [Python](https://github.com/ericlan77/CS-LearningNote/blob/master/InterviewNote/LeetCode/Solutions/1-100_Easy_Soluitons.md#28-implement-strstr-easy), [Java]() |      |
-| 35.SearchInsertPosition            | [Python](https://github.com/ericlan77/CS-LearningNote/blob/master/InterviewNote/LeetCode/Solutions/1-100_Easy_Soluitons.md#35-search-insert-position-easy), [Java]() |      |
-| 38.CountandSay                     | [Python](https://github.com/ericlan77/CS-LearningNote/blob/master/InterviewNote/LeetCode/Solutions/1-100_Easy_Soluitons.md#38-count-and-say-easy), [Java]() |      |
-| 53.MaximumSubarray                 | [Python](https://github.com/ericlan77/CS-LearningNote/blob/master/InterviewNote/LeetCode/Solutions/1-100_Easy_Soluitons.md#53-maximum-subarray--easy), [Java]() |      |
-| 58.LengthofLastWord                | [Python](https://github.com/ericlan77/CS-LearningNote/blob/master/InterviewNote/LeetCode/Solutions/1-100_Easy_Soluitons.md#58-length-of-last-word-easy), [Java]() |      |
-| 67.AddBinary                       | [Python](https://github.com/ericlan77/CS-LearningNote/blob/master/InterviewNote/LeetCode/Solutions/1-100_Easy_Soluitons.md#67-add-binary-easy), [Java]() |      |
-| 69.Sqrt(x)                         | [Python](https://github.com/ericlan77/CS-LearningNote/blob/master/InterviewNote/LeetCode/Solutions/1-100_Easy_Soluitons.md#69-sqrtx-easy), [Java]() |      |
-| 70.ClimbingStairs                  | [Python](https://github.com/ericlan77/CS-LearningNote/blob/master/InterviewNote/LeetCode/Solutions/1-100_Easy_Soluitons.md#70-climbing-stairs-easy), [Java]() |      |
-| 83.RemoveDuplicatesfromSortedList  | [Python](https://github.com/ericlan77/CS-LearningNote/blob/master/InterviewNote/LeetCode/Solutions/1-100_Easy_Soluitons.md#83-remove-duplicates-from-sorted-list-easy), [Java]() |      |
-| 88.MergeSortedArray                | [Python](https://github.com/ericlan77/CS-LearningNote/blob/master/InterviewNote/LeetCode/Solutions/1-100_Easy_Soluitons.md#88-merge-sorted-array-easy), [Java]() |      |
-| 100.相同的树                       | [Python](https://github.com/ericlan77/CS-LearningNote/blob/master/InterviewNote/LeetCode/Solutions/1-100_Easy_Soluitons.md#100-%E7%9B%B8%E5%90%8C%E7%9A%84%E6%A0%91), [Java]() |      |
+| 题号                               | 实现语言                                                     | 备注     |
+| ---------------------------------- | ------------------------------------------------------------ | -------- |
+| 1.TwoSum                           | [Python](https://github.com/ericlan77/CS-LearningNote/blob/master/InterviewNote/LeetCode/Solutions/1-100_Easy_Soluitons.md#1-two-sum-easy), [Java](https://github.com/ericlan77/my-leetcode/blob/main/leetcode-java/solutions/Solution001.java) |          |
+| 7.ReverseInteger                   | [Python](https://github.com/ericlan77/CS-LearningNote/blob/master/InterviewNote/LeetCode/Solutions/1-100_Easy_Soluitons.md#7-reverse-integer-easy), [Java](https://github.com/ericlan77/my-leetcode/blob/main/leetcode-java/solutions/Solution007.java) |          |
+| 9.PalindromeNumber                 | [Python](https://github.com/ericlan77/CS-LearningNote/blob/master/InterviewNote/LeetCode/Solutions/1-100_Easy_Soluitons.md#9-palindrome-number-easy), [Java](https://github.com/ericlan77/my-leetcode/blob/main/leetcode-java/solutions/Solution009.java) |          |
+| 13.RomantoInteger                  | [Python](https://github.com/ericlan77/CS-LearningNote/blob/master/InterviewNote/LeetCode/Solutions/1-100_Easy_Soluitons.md#13-roman-to-integer-easy), [Java](https://github.com/ericlan77/my-leetcode/blob/main/leetcode-java/solutions/Solution013.java) |          |
+| 14.LongestCommonPrefix             | [Python](https://github.com/ericlan77/CS-LearningNote/blob/master/InterviewNote/LeetCode/Solutions/1-100_Easy_Soluitons.md#14-longest-common-prefix-easy), [Java](https://github.com/ericlan77/my-leetcode/blob/main/leetcode-java/solutions/Solution014.java) |          |
+| 20.ValidParentheses                | [Python](https://github.com/ericlan77/CS-LearningNote/blob/master/InterviewNote/LeetCode/Solutions/1-100_Easy_Soluitons.md#20-valid-parentheses-easy), [Java](https://github.com/ericlan77/my-leetcode/blob/main/leetcode-java/solutions/Solution020.java) | 队列     |
+| 21.MergeTwoSortedLists             | [Python](https://github.com/ericlan77/CS-LearningNote/blob/master/InterviewNote/LeetCode/Solutions/1-100_Easy_Soluitons.md#21-merge-two-sorted-lists-easy), [Java](https://github.com/ericlan77/my-leetcode/blob/main/leetcode-java/solutions/Solution021.java) | 链表操作 |
+| 26.RemoveDuplicatesfromSortedArray | [Python](https://github.com/ericlan77/CS-LearningNote/blob/master/InterviewNote/LeetCode/Solutions/1-100_Easy_Soluitons.md#26-remove-duplicates-from-sorted-array-easy), [Java](https://github.com/ericlan77/my-leetcode/blob/main/leetcode-java/solutions/Solution026.java) |          |
+| 27.RemoveElement                   | [Python](https://github.com/ericlan77/CS-LearningNote/blob/master/InterviewNote/LeetCode/Solutions/1-100_Easy_Soluitons.md#27-remove-element-easy), [Java](https://github.com/ericlan77/my-leetcode/blob/main/leetcode-java/solutions/Solution027.java) |          |
+| 28.ImplementstrStr()               | [Python](https://github.com/ericlan77/CS-LearningNote/blob/master/InterviewNote/LeetCode/Solutions/1-100_Easy_Soluitons.md#28-implement-strstr-easy), [Java](https://github.com/ericlan77/my-leetcode/blob/main/leetcode-java/solutions/Solution028.java) |          |
+| 35.SearchInsertPosition            | [Python](https://github.com/ericlan77/CS-LearningNote/blob/master/InterviewNote/LeetCode/Solutions/1-100_Easy_Soluitons.md#35-search-insert-position-easy), [Java](https://github.com/ericlan77/my-leetcode/blob/main/leetcode-java/solutions/Solution035.java) | 二分查找 |
+| 38.CountandSay                     | [Python](https://github.com/ericlan77/CS-LearningNote/blob/master/InterviewNote/LeetCode/Solutions/1-100_Easy_Soluitons.md#38-count-and-say-easy), [Java]() |          |
+| 53.MaximumSubarray                 | [Python](https://github.com/ericlan77/CS-LearningNote/blob/master/InterviewNote/LeetCode/Solutions/1-100_Easy_Soluitons.md#53-maximum-subarray--easy), [Java]() | 动态规划 |
+| 58.LengthofLastWord                | [Python](https://github.com/ericlan77/CS-LearningNote/blob/master/InterviewNote/LeetCode/Solutions/1-100_Easy_Soluitons.md#58-length-of-last-word-easy), [Java]() |          |
+| 67.AddBinary                       | [Python](https://github.com/ericlan77/CS-LearningNote/blob/master/InterviewNote/LeetCode/Solutions/1-100_Easy_Soluitons.md#67-add-binary-easy), [Java]() |          |
+| 69.Sqrt(x)                         | [Python](https://github.com/ericlan77/CS-LearningNote/blob/master/InterviewNote/LeetCode/Solutions/1-100_Easy_Soluitons.md#69-sqrtx-easy), [Java]() |          |
+| 70.ClimbingStairs                  | [Python](https://github.com/ericlan77/CS-LearningNote/blob/master/InterviewNote/LeetCode/Solutions/1-100_Easy_Soluitons.md#70-climbing-stairs-easy), [Java]() |          |
+| 83.RemoveDuplicatesfromSortedList  | [Python](https://github.com/ericlan77/CS-LearningNote/blob/master/InterviewNote/LeetCode/Solutions/1-100_Easy_Soluitons.md#83-remove-duplicates-from-sorted-list-easy), [Java]() |          |
+| 88.MergeSortedArray                | [Python](https://github.com/ericlan77/CS-LearningNote/blob/master/InterviewNote/LeetCode/Solutions/1-100_Easy_Soluitons.md#88-merge-sorted-array-easy), [Java]() |          |
+| 100.相同的树                       | [Python](https://github.com/ericlan77/CS-LearningNote/blob/master/InterviewNote/LeetCode/Solutions/1-100_Easy_Soluitons.md#100-%E7%9B%B8%E5%90%8C%E7%9A%84%E6%A0%91), [Java]() |          |
 
 
 # Medium
@@ -34,9 +34,9 @@ https://github.com/ericlan77/my-leetcode/blob/main/leetcode-java/Solution007.jav
 | 题号                                              | 实现语言                                                     | 备注 |
 | ------------------------------------------------- | ------------------------------------------------------------ | ---- |
 | 2.AddTwoNumbers                                   | [Python](https://github.com/ericlan77/CS-LearningNote/blob/master/InterviewNote/LeetCode/Solutions/1-100_Medium_Solutions.md#2-add-two-numbers-medium), [Java]() |      |
-| 3.LongestSubstringWithoutRepeatingCharacters      | [Python](https://github.com/ericlan77/CS-LearningNote/blob/master/InterviewNote/LeetCode/Solutions/1-100_Medium_Solutions.md#3-longest-substring-without-repeating-characters-medium), [Java](https://github.com/ericlan77/my-leetcode/blob/main/leetcode-java/Solution003.java) |      |
+| 3.LongestSubstringWithoutRepeatingCharacters      | [Python](https://github.com/ericlan77/CS-LearningNote/blob/master/InterviewNote/LeetCode/Solutions/1-100_Medium_Solutions.md#3-longest-substring-without-repeating-characters-medium), [Java](https://github.com/ericlan77/my-leetcode/blob/main/leetcode-java/solutions/Solution003.java) |      |
 | 5.LongestPalindromicSubstring                     | [Python](https://github.com/ericlan77/CS-LearningNote/blob/master/InterviewNote/LeetCode/Solutions/1-100_Medium_Solutions.md#5-longest-palindromic-substring-medium), [Java]() |      |
-| 6.ZigZagConversion                                | [Python](https://github.com/ericlan77/CS-LearningNote/blob/master/InterviewNote/LeetCode/Solutions/1-100_Medium_Solutions.md#6-zigzag-conversion-medium), [Java](https://github.com/ericlan77/my-leetcode/blob/main/leetcode-java/Solution006.java) |      |
+| 6.ZigZagConversion                                | [Python](https://github.com/ericlan77/CS-LearningNote/blob/master/InterviewNote/LeetCode/Solutions/1-100_Medium_Solutions.md#6-zigzag-conversion-medium), [Java](https://github.com/ericlan77/my-leetcode/blob/main/leetcode-java/solutions/Solution006.java) |      |
 | 8.StringtoInteger(atoi)                           | [Python](https://github.com/ericlan77/CS-LearningNote/blob/master/InterviewNote/LeetCode/Solutions/1-100_Medium_Solutions.md#8-string-to-integer-atoi-medium), [Java](https://github.com/ericlan77/my-leetcode/blob/main/leetcode-java/Solution008.java) |      |
 | 11.ContainerWithMostWater                         | [Python](https://github.com/ericlan77/CS-LearningNote/blob/master/InterviewNote/LeetCode/Solutions/1-100_Medium_Solutions.md#11-container-with-most-water-medium), [Java](https://github.com/ericlan77/my-leetcode/blob/main/leetcode-java/Solution011.java) |      |
 | 12.IntegertoRoman                                 | [Python](https://github.com/ericlan77/CS-LearningNote/blob/master/InterviewNote/LeetCode/Solutions/1-100_Medium_Solutions.md#12-integer-to-roman-medium), [Java]() |      |
@@ -96,4 +96,7 @@ https://github.com/ericlan77/my-leetcode/blob/main/leetcode-java/Solution007.jav
 # Hard
 
 | 题号 | 备注 |      |
+| ---- | ---- | ---- |
+
+|      |      |      |
 | ---- | ---- | ---- |

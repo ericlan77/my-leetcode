@@ -1,10 +1,11 @@
+package solutions;
 import java.util.HashMap;
 /**
  * 初始化HashMap，对于罗马字母，当前字母对应数值大于右边的，那么在总数里加上当前
  * 字母对应的数值；如果当前字母对应数值小于右边，在总数里减去当前字母对应的数值。
  * XIII = 8, XIV = 14
  */
-public class Solution13 {
+public class Solution013 {
     HashMap<Character, Integer> map = new HashMap<>(){
         {
             put('I', 1);
@@ -25,9 +26,5 @@ public class Solution13 {
         }
         ans += map.get(s.charAt(s.length()-1));
         return ans;
-    }
-
-    public static void main(String[] args) {
-
     }
 }

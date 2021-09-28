@@ -1,3 +1,4 @@
+package solutions;
 /**
  * @ClassName: Solution079
  * @Description: TODO
