@@ -6,10 +6,11 @@ import java.util.Stack;
 /**
  * @author ericlan
  * @date 9/11/2021 12:52 AM
- * @description some tree operation: build, traverse...
+ * @description Tree utils
  */
 
 public class TreeUtil {
+    // return a root of built Tree by input String
     public static TreeNode buildTree(String input){
         String[] list = input.split(",");
         if(list.length == 1){
@@ -115,6 +116,7 @@ public class TreeUtil {
         return allNodeValues;
     }
 
+    // print all tree node by level: 7(11)  2(11)  5(4)  1(4)  ->4, the values in brackets imply the parent tree node.
     public static void printTreeLevelWithParent(TreeNode root){
         List<List<String>> tree = levelTraverseWithParent(root);
         int index = 1;
@@ -126,6 +128,7 @@ public class TreeUtil {
         }
     }
 
+    // print all tree node by level: 7 2 5 1 ->4
     public static void printTreeLevel(TreeNode root){
         List<List<Integer>> tree = levelTraverse(root);
         int index = 1;

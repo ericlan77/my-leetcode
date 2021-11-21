@@ -40,16 +40,6 @@ public class BinarySearch {
         return -1;
     }
 
-    public static void main(String args[]){
-        //int[] array = {1,4,7,9,13,17,21,26,29,35,44,55,65,79};
-        int[] array = {1,4,7};
-        arrayLength = array.length;
-        int index = findTarget(array,6);
-        if(index != -1)
-            System.out.println("After "+epoch+" epochs, find target at pos:"+index);
-        else
-            System.out.println("After "+epoch+" epochs, not find target, it's between ["+lastLeft+","+lastRight+"]");
-    }
     /*
     打印出二分搜索的过程
      */
@@ -76,6 +66,17 @@ public class BinarySearch {
         for(int i = 0; i < (right)*3; i++)
             System.out.print(" ");
         System.out.println("  r");
+    }
+
+    public static void main(String args[]){
+        //int[] array = {1,4,7,9,13,17,21,26,29,35,44,55,65,79};
+        int[] array = {1,4,7};
+        arrayLength = array.length;
+        int index = findTarget(array,6);
+        if(index != -1)
+            System.out.println("After "+epoch+" epochs, find target at pos:"+index);
+        else
+            System.out.println("After "+epoch+" epochs, not find target, it's between ["+lastLeft+","+lastRight+"]");
     }
 }
 
