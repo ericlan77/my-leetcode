@@ -3,7 +3,7 @@ package utils;
 /**
  * @author: ericlan
  * @Date: 11/24/2021,9:27 PM
- * @Description:
+ * @Description: 字典树 Trie
  */
 class Trie {
     String text; //到该节点累积的字符串，起始节点的text位空字符串
