@@ -37,3 +37,4 @@ if __name__ == '__main__':
     get_runtime(test.fib, 30)
     get_runtime(test.fib_with_mem, 30)
     get_runtime(test.fib_from_bottom_to_top, 30)
+
