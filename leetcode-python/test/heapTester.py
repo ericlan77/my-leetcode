@@ -1,3 +1,2 @@
-a = [1,2,3]
-a.pop()
-print(a)
+for i in range(200):
+    print(f"- [ ] {i+1}")
